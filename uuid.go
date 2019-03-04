@@ -32,10 +32,10 @@ func (uuid Array) String() string {
 type UUID []byte
 
 // A Version represents a UUIDs version.
-type Version = guuid.Version
+type Version guuid.Version
 
 // A Variant represents a UUIDs variant.
-type Variant = guuid.Variant
+type Variant guuid.Variant
 
 // Constants returned by Variant.
 const (
